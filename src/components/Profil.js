@@ -58,6 +58,13 @@ function Profil() {
     return () => clearInterval(timeInterval);
   }, []);
 
+  const scrollToMenu = () => {
+    const menuElement = document.getElementById("Menu");
+    if (menuElement) {
+      menuElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="flex flex-col justify-center items-center h-screen -mt-24 md:-mt-0 mb-40">
       <div className="absolute top-0 right-0 text-center text-lg text-teal-300 bg-black w-full font-mono">
@@ -93,7 +100,7 @@ function Profil() {
           </h1>
         </div>
         <a
-          href="#"
+          href="#Menu"
           className="text-sm md:text-lg font-bold text-center text-black font-mono hover:text-red-400 transform transition-all duration-300 group relative flex items-center justify-center overflow-hidden px-6 py-4 bg-gradient-to-r from-blue-500 to-indigo-700 rounded-full shadow-xl group-hover:from-purple-700 group-hover:to-blue-600"
         >
           <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-pink-500 to-blue-500 opacity-30 rounded-full"></span>
