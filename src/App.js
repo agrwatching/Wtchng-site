@@ -5,7 +5,7 @@ import Menu from './components/Menu';
 
 function App() {
   return (
-    <div className="relative w-full min-h-screen overflow-auto">
+    <div className="relative w-full min-h-screen overflow-hidden fade-in">
       <video
         autoPlay
         loop
