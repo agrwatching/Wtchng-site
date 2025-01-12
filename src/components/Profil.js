@@ -98,7 +98,7 @@ function Profil() {
           </h1>
         </div>
         <button
-          onClick={scrollToMenu}  // Menambahkan event scroll
+          onClick={scrollToMenu}
           className="text-sm md:text-lg font-bold text-center text-black font-mono hover:text-red-400 transform transition-all duration-300 group relative flex items-center justify-center overflow-hidden px-6 py-4 bg-gradient-to-r from-blue-500 to-indigo-700 rounded-full shadow-xl group-hover:from-purple-700 group-hover:to-blue-600"
         >
           <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-pink-500 to-blue-500 opacity-30 rounded-full"></span>
