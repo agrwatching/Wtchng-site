@@ -67,7 +67,7 @@ function Profil() {
       <div className="w-[160px] md:w-[250px] p-4 md:p-5 m-5 border-4 border-purple-500 bg-black rounded-xl bg-opacity-60 shadow-xl shadow-black">
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 md:w-16 md:h-16 mb-2 rounded-xl overflow-hidden border-black border-2">
-            <img src="/Profil12.png" alt="icon" className="w-full h-full object-cover" />
+            <img src="/profil12.png" alt="icon" className="w-full h-full object-cover" />
           </div>
           <p className="text-sm md:text-2xl font-bold text-center text-teal-200 font-mono">
             Wtchng Nickname
