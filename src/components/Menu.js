@@ -27,7 +27,7 @@ function Menu() {
   };
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-5 gap-5 min-h-screen p-5 bg-gradient-to-r from-purple-900 via-blue-900 to-black">
+    <div id="Menu" className="grid grid-cols-2 md:grid-cols-5 gap-5 min-h-screen p-5 bg-gradient-to-r from-purple-900 via-blue-900 to-black">
       {projects.map((project, index) => (
         <div
           key={index}
